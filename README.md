@@ -9,5 +9,11 @@ Features:
     Check /etc/ld.so.preload File:
     It checks if any shared libraries are listed in the /etc/ld.so.preload file, which can force the system to load specific libraries when a program starts.
 
+
+
     Check for Hooked Functions:
     The program checks if the common libc functions (like open, read, write, execve, etc.) are hooked. Hooking is when these functions are modified to behave in a different way, often used by malware to hide activities.
+
+
+Compile:
+``` gcc looky.c -o looky -ldl```

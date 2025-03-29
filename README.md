@@ -9,6 +9,7 @@ Features:
     Check /etc/ld.so.preload File:
     It checks if any shared libraries are listed in the /etc/ld.so.preload file, which can force the system to load specific libraries when a program starts.
 
+![image](https://github.com/user-attachments/assets/1f5a7b29-5a1f-4170-9082-288b90dd1703)
 
 
     Check for Hooked Functions:
